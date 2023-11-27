@@ -16,6 +16,7 @@ header {
 
 button {
   background-color: var(--iris);
+  color: white;
 }
 
 a {
