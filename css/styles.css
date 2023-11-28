@@ -174,7 +174,19 @@ button:hover {
 .address-details {
   font-style: normal;
 }
+.link-details {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.portfolio-footer {
+  background-color: #2e2f42;
+}
 
+.footer-color {
+  color: #f4f4fd;
+}
 .highlight {
   color: var(--second-color-text);
 }
