@@ -171,9 +171,17 @@ button:hover {
   color: #2e2f42;
 }
 
-.address-details {
+.adress-details {
   font-style: normal;
 }
+
+.li-links {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .link-details {
   font-size: 16px;
   line-height: 1.5;
