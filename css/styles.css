@@ -20,24 +20,6 @@ button {
   background-color: var(--iris);
   color: white;
 }
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #404bbf;
-}
-
-a:active {
-  color: #404bbf;
-}
-
-a:visited {
-  color: #404bbf;
-}
-
 .link {
   text-decoration: none;
 }
