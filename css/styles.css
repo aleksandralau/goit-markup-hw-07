@@ -3,6 +3,16 @@
   --second-color-text: #4285f4;
   --color-white: white;
   --iris: #4d5ae5;
+  --blue-color: #404bbf;
+}
+
+logo-class:hover logo-class:focus {
+  color: #404bbf;
+}
+
+li-links:hover,
+li-links:focus {
+  color: #404bbf;
 }
 
 body {
@@ -24,8 +34,9 @@ button {
   text-decoration: none;
 }
 
-button:hover {
-  background-color: darkslateblue;
+button:hover,
+button:focus {
+  background-color: #404bbf;
 }
 
 .logo {
@@ -169,6 +180,7 @@ button:hover {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 
 .link-details {
