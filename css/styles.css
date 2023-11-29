@@ -171,7 +171,7 @@ button:hover {
   color: #2e2f42;
 }
 
-.adress-details {
+.address-details {
   font-style: normal;
 }
 
@@ -224,4 +224,8 @@ button:hover {
 
 .highlight {
   color: var(--second-color-text);
+}
+
+.highlight-web {
+  color: #f4f4fd;
 }
