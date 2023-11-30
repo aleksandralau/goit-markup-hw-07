@@ -6,12 +6,13 @@
   --blue-color: #404bbf;
 }
 
-logo-class:hover logo-class:focus {
+.logo-class:hover,
+.logo-class:focus {
   color: #404bbf;
 }
 
-li-links:hover,
-li-links:focus {
+.li-links:hover,
+.li-links:focus {
   color: #404bbf;
 }
 
@@ -98,7 +99,6 @@ button:focus {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  line-height: 1.2;
   color: #2e2f42;
 }
 .h3-class {
@@ -167,6 +167,7 @@ button:focus {
 .address-details {
   font-style: normal;
 }
+
 .logo-class {
   font-weight: 500;
   font-size: 16px;
