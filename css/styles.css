@@ -4,6 +4,7 @@
   --color-white: white;
   --iris: #4d5ae5;
   --blue-color: #404bbf;
+  --studio-class: #f4f4fd;
 }
 
 .logo-class:hover,
@@ -38,6 +39,10 @@ button {
 button:hover,
 button:focus {
   background-color: #404bbf;
+}
+
+.studio-class {
+  color: var(--studio-class);
 }
 
 .logo {
