@@ -108,6 +108,11 @@ button:focus {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.footer-acapit {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
 .p-class {
   font-size: 16px;
   line-height: 1.5;
