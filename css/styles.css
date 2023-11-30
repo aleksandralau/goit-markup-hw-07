@@ -5,6 +5,7 @@
   --iris: #4d5ae5;
   --blue-color: #404bbf;
   --studio-class: #f4f4fd;
+  --ourteam-section: #ffffff;
 }
 
 .logo-class:hover,
@@ -43,6 +44,10 @@ button:focus {
 
 .studio-class {
   color: var(--studio-class);
+}
+
+.ourteam-section {
+  background-color: var(--ourteam-section);
 }
 
 .logo {
@@ -208,7 +213,11 @@ button:focus {
   color: #f4f4fd;
 }
 
-.style-button {
+.style-button:focus,
+.style-button:hover {
+  color: #ffff;
+}
+ {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
