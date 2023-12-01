@@ -157,7 +157,7 @@ button:focus {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: (var(--font-color));
+  color: var(--font-color);
 }
 
 .p-describes {
