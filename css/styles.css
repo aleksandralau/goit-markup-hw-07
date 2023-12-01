@@ -149,7 +149,7 @@ button:focus {
 }
 
 .last-section {
-  background-color: (var(--studio-class));
+  background-color: var(--studio-class);
 }
 .last-class {
   font-size: 36px;
