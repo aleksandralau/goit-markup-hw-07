@@ -8,6 +8,7 @@
   --ourteam-section: #ffffff;
   --color-body: #434455;
   --font-color: #2e2f42;
+  --border-style:  #e7e9fc;
 }
 
 .logo-class:hover,
@@ -267,7 +268,7 @@ button:focus {
 }
 
 .header-style {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--border-style);
 }
 
 img {
@@ -350,7 +351,7 @@ img {
   text-align: center;
 }
 .header-class {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--border-style);
   display: flex;
 }
 .div-container {
@@ -373,7 +374,7 @@ img {
 }
 .button-top {
   padding: 12px 24px 12px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--border-style);
   border: 1px solid transparent;
   border-radius: 4px;
   border: 1px solid transparent;
@@ -384,6 +385,7 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  width: calc((100% - 48px) / 3);
 }
 
 .li-styles {
@@ -396,8 +398,9 @@ img {
   margin-bottom: 72px}
 
   .app-info {padding: 32px 16px;
-    border: 1px solid #e7e9fc; 
+    border: 1px solid var(--border-style); 
     border-top: none; 
   }
 
+  .top-concept {margin-bottom: 8px;}
 
