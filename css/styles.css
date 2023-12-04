@@ -79,6 +79,10 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02;
   color: var(--color-body);
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .link-studio {
@@ -362,4 +366,19 @@ img {
 
 .li-class {
   padding: 24px 0 24px;
+}
+.main-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.button-top {
+  padding: 12px 24px 12px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+.images-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
