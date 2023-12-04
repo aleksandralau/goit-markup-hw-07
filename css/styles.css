@@ -247,6 +247,10 @@ button:focus {
   color: var(--studio-class);
 }
 
+.header-style {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 img {
   display: block;
 }
@@ -256,6 +260,7 @@ img {
 }
 
 .container {
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
