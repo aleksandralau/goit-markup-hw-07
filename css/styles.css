@@ -108,13 +108,22 @@ button:focus {
   max-width: 496px;
 }
 .button-class {
-  background-color: #4d5ae5;
+  background-color: var(--iris);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-white);
+  cursor: pointer;
+}
+.button-details {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: var(--iris);
+  border-radius: 4px;
   cursor: pointer;
 }
 .second-class {
@@ -285,4 +294,32 @@ img {
 .contacts-details {
   display: flex;
   gap: 40px;
+}
+
+.second-section {
+  padding: 120px 0 120px;
+}
+
+.list-class {
+  display: flex;
+  gap: 24px;
+}
+.list-strategy {
+  width: calc((100% - 72px) / 4);
+}
+.class-strategy {
+  margin-bottom: 8px;
+}
+.third-section {
+  padding-bottom: 120px;
+}
+.sec-div {
+  margin-bottom: 72px;
+}
+.third-ul {
+  display: flex;
+  gap: 24px;
+}
+.first-point {
+  width: calc((100% - 48px) / 3);
 }
