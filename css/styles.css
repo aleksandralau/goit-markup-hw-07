@@ -21,7 +21,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--color-body);
   line-height: 1.6;
   background-color: var(--color-white);
@@ -54,7 +54,7 @@ button:focus {
 
 .logo {
   font-size: 18px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -64,7 +64,7 @@ button:focus {
 }
 .font {
   font-size: 16px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 500;
   line-height: 24px;
   color: var(--font-color);
@@ -107,7 +107,7 @@ button:focus {
 }
 .button-class {
   background-color: #4d5ae5;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -222,7 +222,7 @@ button:focus {
   color: var(--color-white);
 }
 .style-button {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -245,4 +245,30 @@ button:focus {
 
 .highlight-web {
   color: var(--studio-class);
+}
+
+img {
+  display: block;
+}
+
+.containter-img {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
+.navigation-header {
+  display: flex;
+  align-items: center;
+}
+.div-logo {
+  margin-right: 76px;
+}
+.menu-style {
+  display: flex;
+  gap: 40px;
 }
