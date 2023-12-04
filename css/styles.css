@@ -8,7 +8,7 @@
   --ourteam-section: #ffffff;
   --color-body: #434455;
   --font-color: #2e2f42;
-  --border-style:  #e7e9fc;
+  --border-style: #e7e9fc;
 }
 
 .logo-class:hover,
@@ -148,6 +148,7 @@ button:focus {
   line-height: 1.5;
   color: var(--studio-class);
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .p-class {
   font-size: 16px;
@@ -231,6 +232,12 @@ button:focus {
 }
 .portfolio-footer {
   background-color: var(--font-color);
+  padding: 100px 0 100px;
+}
+
+.logo-link {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-color {
@@ -392,15 +399,19 @@ img {
   width: calc((100% - 48px) / 3);
 }
 
-.ul-list {display: flex;
+.ul-list {
+  display: flex;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 72px}
+  margin-bottom: 72px;
+}
 
-  .app-info {padding: 32px 16px;
-    border: 1px solid var(--border-style); 
-    border-top: none; 
-  }
+.app-info {
+  padding: 32px 16px;
+  border: 1px solid var(--border-style);
+  border-top: none;
+}
 
-  .top-concept {margin-bottom: 8px;}
-
+.top-concept {
+  margin-bottom: 8px;
+}
