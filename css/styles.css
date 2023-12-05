@@ -304,6 +304,13 @@ img {
   display: flex;
   gap: 40px;
 }
+.first-li {
+  margin-right: 40px;
+}
+.last-li {
+  margin-right: 0;
+}
+
 .menu-top {
   padding: 24px 0 24px;
 }
