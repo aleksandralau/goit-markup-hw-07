@@ -101,7 +101,8 @@ button:focus {
 
 .section-details {
   background-color: var(--font-color);
-  padding: 188px 0 188px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .top-class {
@@ -112,6 +113,7 @@ button:focus {
   color: var(--color-white);
   max-width: 496px;
 }
+
 .button-class {
   background-color: var(--iris);
   font-family: "Roboto", sans-serif;
@@ -120,9 +122,6 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-white);
-  cursor: pointer;
-}
-.button-details {
   display: block;
   min-width: 169px;
   height: 56px;
