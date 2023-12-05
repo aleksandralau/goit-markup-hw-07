@@ -204,8 +204,6 @@ button:focus {
 
 .address-details {
   font-style: normal;
-  display: flex;
-  gap: 40px;
 }
 
 .logo-class {
@@ -316,7 +314,6 @@ img {
 }
 .contacts-details {
   display: flex;
-  gap: 40px;
 }
 
 .second-section {
