@@ -160,11 +160,6 @@ button:focus {
   color: var(--font-color);
 }
 
-.div-footer {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer-acapit {
   line-height: 1.5;
   color: var(--studio-class);
@@ -283,9 +278,7 @@ button:focus {
   padding-left: 24px;
   padding-right: 24px;
   border: 1px solid var(--border-style);
-  border: 1px solid transparent;
   border-radius: 4px;
-  border: 1px solid transparent;
 }
 
 .class-port {
@@ -429,6 +422,9 @@ img {
 
 .li-styles {
   width: calc((100% - 48px) / 3);
+}
+.address-style {
+  gap: 40px;
 }
 
 .ul-list {
