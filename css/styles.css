@@ -42,7 +42,10 @@ button {
 .link {
   text-decoration: none;
 }
-
+.style-button:hover,
+.style-button:focus {
+  border: 1px solid transparent;
+}
 button:hover,
 button:focus {
   background-color: var(--blue-color);
