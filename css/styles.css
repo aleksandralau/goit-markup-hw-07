@@ -88,7 +88,6 @@ button:focus {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 72px;
 }
 
 .link-studio {
@@ -117,6 +116,8 @@ button:focus {
   letter-spacing: 0.02em;
   color: var(--color-white);
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .button-class {
@@ -134,6 +135,7 @@ button:focus {
   background-color: var(--iris);
   border-radius: 4px;
   cursor: pointer;
+  margin: 0 auto;
 }
 .second-class {
   font-weight: 500;
@@ -148,6 +150,19 @@ button:focus {
   letter-spacing: 0.02em;
   color: var(--font-color);
   text-align: center;
+}
+
+.point-class {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--font-color);
+}
+
+.div-footer {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-acapit {
@@ -211,6 +226,7 @@ button:focus {
 
 .address-details {
   font-style: normal;
+  padding: 24px 0;
 }
 
 .logo-class {
@@ -297,7 +313,9 @@ img {
 
 .container-img {
   display: flex;
+  gap: 332px;
 }
+
 .ul-style {
   gap: 40px;
 }
@@ -319,15 +337,14 @@ img {
   display: flex;
   gap: 40px;
 }
-.first-li {
-  margin-right: 40px;
-}
+
 .last-li {
   margin-right: 0;
 }
 
 .menu-top {
   padding: 24px 0 24px;
+  display: inline-block;
 }
 .contacts-details {
   display: flex;
@@ -408,7 +425,6 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  width: calc((100% - 48px) / 3);
 }
 
 .li-styles {
