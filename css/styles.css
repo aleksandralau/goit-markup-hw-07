@@ -149,6 +149,15 @@ button:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--font-color);
+  text-align: center;
+}
+
+.card-class {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--font-color);
 }
 
 .point-class {
