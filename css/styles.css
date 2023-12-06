@@ -20,7 +20,10 @@
 .li-links:focus {
   color: var(--blue-color);
 }
-
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-body);
@@ -296,7 +299,6 @@ img {
 }
 
 .container {
-  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
@@ -366,9 +368,6 @@ img {
   padding-right: 16px;
 }
 
-.p-class {
-  text-align: center;
-}
 .header-class {
   border-bottom: 1px solid var(--border-style);
   display: flex;
@@ -391,7 +390,18 @@ img {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .list-images {
   display: flex;
   flex-wrap: wrap;
