@@ -469,6 +469,9 @@ img {
   justify-content: center;
   color: #8e8f99;
 }
+.svg-customer-class {
+  fill: currentColor;
+}
 .header-class {
   border-bottom: 1px solid var(--border-style);
   display: flex;
