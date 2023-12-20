@@ -435,7 +435,24 @@ img {
   align-items: center;
   justify-content: center;
 }
-
+.extra-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.customers {
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+.first-customer {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
 .header-class {
   border-bottom: 1px solid var(--border-style);
   display: flex;
