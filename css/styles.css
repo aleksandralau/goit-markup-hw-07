@@ -421,12 +421,12 @@ img {
   height: 40px;
 }
 
-.ig-logo:hover,
-.ig-logo:focus {
+.more-logo:hover,
+.more-logo:focus {
   background-color: #404bbf;
 }
 
-.ig-logo {
+.more-logo {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
