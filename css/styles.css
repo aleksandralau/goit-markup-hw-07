@@ -420,20 +420,21 @@ img {
   gap: 24px;
 }
 
-.insta-lg:hover,
-.insta-lg:focus {
+.insta-logo:hover,
+.insta-logo:focus {
   background-color: #404bbf;
 }
 
 .insta-lg {
+  fill: #f4f4fd;
+}
+.insta-logo {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  fill: #f4f4fd;
 }
 
 .more-logo:hover,
