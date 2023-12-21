@@ -30,7 +30,10 @@ body {
   line-height: 1.6;
   background-color: var(--color-white);
 }
-
+.ig-logo {
+  width: 40px;
+  height: 40px;
+}
 header {
   background-color: var(--color-white);
 }
