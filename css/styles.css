@@ -379,6 +379,17 @@ img {
   padding: 0 15px 0 15px;
 }
 
+.navigation-header {
+  display: flex;
+  align-items: center;
+}
+.logo-details {
+  margin-right: 76px;
+}
+.menu-style {
+  display: flex;
+  gap: 40px;
+}
 .header-link::after {
   content: "";
   position: absolute;
@@ -393,19 +404,6 @@ img {
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.navigation-header {
-  display: flex;
-  align-items: center;
-}
-.logo-details {
-  margin-right: 76px;
-}
-.menu-style {
-  display: flex;
-  gap: 40px;
-}
-
 .last-li {
   margin-right: 0;
 }
