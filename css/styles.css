@@ -619,3 +619,9 @@ img {
 .top-concept {
   margin-bottom: 8px;
 }
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
