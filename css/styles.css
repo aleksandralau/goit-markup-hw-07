@@ -347,11 +347,6 @@ button:focus {
 }
 .card-shadow {
   box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.card-shadow:hover {
-  transform: translateY(0%);
-}
-.card-shadow:focus {
   transform: translateY(0%);
 }
 
