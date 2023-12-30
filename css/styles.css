@@ -345,6 +345,15 @@ button:focus {
   letter-spacing: 0.02em;
   color: var(--color-body);
 }
+.card-shadow {
+  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card-shadow:hover {
+  transform: translateY(0%);
+}
+.card-shadow:focus {
+  transform: translateY(0%);
+}
 
 .highlight {
   color: var(--second-color-text);
