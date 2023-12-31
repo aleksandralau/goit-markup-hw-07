@@ -10,6 +10,7 @@
   --border-style: #e7e9fc;
   --dark-style: #8e8f99;
   --green-style: #31d0aa;
+  --style-modal: #fcfcfc;
 }
 
 .logo-class:hover,
@@ -364,9 +365,9 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--studio-class);
   padding: 40px 32px;
-  background-color: #4d5ae5;
+  background-color: var(--iris);
   height: 100%;
   width: 100%;
   transform: translateY(100%);
@@ -374,7 +375,7 @@ button:focus {
 }
 .a-position {
   position: relative;
-  color: #404bbf;
+  color: var(--blue-color);
 }
 .modal-div {
   position: fixed;
@@ -393,7 +394,11 @@ button:focus {
   transform: translate(-50%, -50%) scale(1);
   width: 408px;
   min-height: 584px;
-  background: #fcfcfc;
+  background: var(--style-modal);
+  box-shadow: z wartościami 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-modal {
   position: absolute;
@@ -414,7 +419,7 @@ button:focus {
 }
 .button-modal:hover,
 .button-modal:focus {
-  background-color: #404bbf;
+  background-color: var(--blue-color);
   border: none;
 }
 .svg-modal {
@@ -475,12 +480,12 @@ img {
   left: 0;
   bottom: -1px;
   height: 4px;
-  background-color: #404bbf;
+  background-color: var(--blue-color);
   border-radius: 2px;
 }
 .header-link {
   position: relative;
-  color: #404bbf;
+  color: var(--blue-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-transition:hover .button-transition:focus {
