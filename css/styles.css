@@ -39,6 +39,7 @@ body {
   justify-content: center;
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ig-logo:hover,
@@ -606,6 +607,8 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--dark-style);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-customer-class {
   fill: currentColor;
@@ -648,6 +651,7 @@ img {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-social {
   fill: var(--studio-class);
