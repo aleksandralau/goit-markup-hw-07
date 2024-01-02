@@ -437,7 +437,7 @@ button:focus {
 }
 
 .svg-modal {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .highlight {
@@ -503,6 +503,23 @@ img {
   color: var(--blue-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.menu-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: var(--blue-color);
+  border-radius: 2px;
+  width: 100%;
+}
+.menu-link {
+  position: relative;
+  color: var(--blue-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .button-transition:hover .button-transition:focus {
   transform: translateY(0%);
 }
