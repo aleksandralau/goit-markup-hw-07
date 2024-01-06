@@ -796,3 +796,6 @@ img {
   border: none;
   border-radius: 4px;
 }
+.button-sub-svg {
+  margin-left: 16px;
+}
