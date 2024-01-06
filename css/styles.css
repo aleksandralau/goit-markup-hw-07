@@ -762,6 +762,6 @@ img {
 .footer-form {
   display: flex;
 }
-.footer-input {
+.footer-form {
   gap: 24px;
 }
