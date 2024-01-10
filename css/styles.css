@@ -517,6 +517,7 @@ button:focus {
   border: none;
   fill: var(--studio-class);
 }
+
 .modal-input {
   width: 100%;
   height: 40px;
