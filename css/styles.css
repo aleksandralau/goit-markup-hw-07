@@ -496,6 +496,9 @@ button:focus {
 .modal-icons {
   position: relative;
 }
+.modal-icons:focus-within {
+  fill: var(--iris);
+}
 .span-label {
   width: 16px;
   height: 16px;
@@ -548,7 +551,6 @@ button:focus {
 .modal-input:hover,
 .modal-input:focus {
   border-color: var(--iris);
-  fill: #4d5ae5;
 }
 .modal-svg {
   position: absolute;
