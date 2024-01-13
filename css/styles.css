@@ -548,6 +548,7 @@ button:focus {
 .modal-input:hover,
 .modal-input:focus {
   border-color: var(--iris);
+  fill: #4d5ae5;
 }
 .modal-svg {
   position: absolute;
