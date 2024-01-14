@@ -513,10 +513,11 @@ button:focus {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 6px;
 }
 .privacy-policy {
   color: var(--iris);
-  margin-left: 10px;
+  margin-left: 6px;
 }
 .modal-hidden:checked + .label-form-modal .span-label {
   background-color: var(--blue-color);
