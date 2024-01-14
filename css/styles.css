@@ -58,10 +58,7 @@ button {
 .link {
   text-decoration: none;
 }
-.style-button:hover,
-.style-button:focus {
-  border: 1px solid transparent;
-}
+
 button:hover,
 button:focus {
   background-color: var(--blue-color);
@@ -172,7 +169,7 @@ button:focus {
   min-width: 169px;
   height: 56px;
   border: none;
-  background-color: var(--iris);
+
   border-radius: 4px;
   cursor: pointer;
   margin: 0 auto;
@@ -253,17 +250,15 @@ button:focus {
   text-align: center;
   margin: 8px 0 8px 0;
 }
-.page-footer {
-  color: var(--font-color);
-}
+
 .footer-studio {
   color: var(--studio-class);
 }
 
 .page-footer {
   line-height: 1.5;
-  color: var(--studio-class);
   letter-spacing: 0.02em;
+  color: var(--font-color);
 }
 
 .studio-head {
@@ -314,6 +309,7 @@ button:focus {
 
 .style-button:focus,
 .style-button:hover {
+  border: 1px solid transparent;
   color: var(--color-white);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -890,10 +886,9 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-white);
 }
+
 .footer-form {
   display: flex;
-}
-.footer-form {
   gap: 24px;
 }
 .footer-input {
