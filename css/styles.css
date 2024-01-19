@@ -130,6 +130,7 @@ button:focus {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office1.jpg);
+  width: 100%;
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
@@ -592,7 +593,8 @@ img {
 }
 
 .container {
-  width: 1158px;
+  width: 100%;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
@@ -607,6 +609,11 @@ img {
 .menu-style {
   display: flex;
   gap: 40px;
+}
+.menu-layout {
+  display: flex;
+  gap: 332px;
+  align-items: center;
 }
 .header-link::after {
   content: "";
@@ -922,3 +929,69 @@ img {
 .button-sub-svg {
   margin-left: 16px;
 }
+.menu-layout {
+  display: none;
+}
+
+.mobile-menu-layout {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.mobile-menu-layout button {
+  background-color: transparent;
+}
+
+.js-menu-container {
+  display: none;
+}
+.js-menu-container.is-open {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color-white);
+  flex-flow: column nowrap;
+}
+.mobile-menu-close {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.mobile-nav-layout .list-layout {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 24px 0;
+  gap: 20px;
+}
+.mobile-nav-layout .list-layout .link-active::after {
+  display: none;
+  flex-flow: column nowrap;
+}
+
+html,
+body {
+  width: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+
+@media (min-width: 480px) {
+}
+
+@media (min-width: 768px) {
+  .menu-layout {
+    display: flex;
+  }
+  .mobile-menu-layout {
+    display: none;
+  }
+}
+
+@media (min-width: 1158px) {
+}
+
+@media (min-width: );
