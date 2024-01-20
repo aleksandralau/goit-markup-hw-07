@@ -1033,7 +1033,7 @@ body {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 72px;
-    color: var(--background-color);
+    color: var(--color-white);
     text-transform: capitalize;
   }
   .last-div {
@@ -1042,6 +1042,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap-reverse;
+  }
+  .container-img {
+    display: none;
   }
 }
 
