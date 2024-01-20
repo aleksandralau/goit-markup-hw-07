@@ -138,7 +138,7 @@ button:focus {
   margin: auto;
 }
 .vector-style {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   height: 112px;
@@ -156,7 +156,6 @@ button:focus {
   max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
-
 }
 
 .button-class {
@@ -269,8 +268,8 @@ button:focus {
 
 .address-details {
   font-style: normal;
- display: flex;
- align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo-class {
@@ -585,7 +584,6 @@ img {
   display: block;
 }
 
-
 .ul-style {
   gap: 40px;
 }
@@ -657,13 +655,15 @@ img {
 
 .list-class {
   display: flex;
-  gap: 24px;
-  flex-wrap: nowrap;
+  gap: 72px;
+  flex-wrap: wrap;
 }
 
 .class-strategy {
   margin-bottom: 8px;
   font-size: 36px;
+  display: flex;
+  justify-content: center;
 }
 .third-section {
   padding-bottom: 120px;
@@ -774,8 +774,8 @@ img {
   align-items: baseline;
   flex-wrap: wrap;
   gap: 72px;
- justify-content: unset;
-  padding-left: unset; 
+  justify-content: unset;
+  padding-left: unset;
 }
 
 .sm-style {
@@ -864,7 +864,6 @@ img {
 .address-style {
   gap: 40px;
   flex-direction: row;
-  
 }
 
 .ul-list {
@@ -897,7 +896,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-white);
   text-align: unset;
-  
 }
 
 .footer-form {
@@ -924,9 +922,9 @@ img {
 .logo-p {
   display: flex;
   flex-direction: column;
- align-items: unset;
- margin-right: 120px;
- gap: unset; 
+  align-items: unset;
+  margin-right: 120px;
+  gap: unset;
 }
 
 .subscribe-button {
@@ -961,7 +959,7 @@ img {
 
 .mobile-menu-layout button {
   background-color: transparent;
-    position: absolute;
+  position: absolute;
   top: 24px;
   right: 24px;
   width: 24px;
@@ -994,7 +992,8 @@ img {
   justify-content: flex-end;
 }
 
-.mobile-nav-layout .list-layout { display: flex;
+.mobile-nav-layout .list-layout {
+  display: flex;
   flex-direction: column;
   gap: 40px;
   font-size: 36px;
@@ -1025,17 +1024,46 @@ body {
       ),
       url(../images/people-office1.jpg);
   }
+  .top-class {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    max-width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 72px;
+    color: var(--background-color);
+    text-transform: capitalize;
+  }
+  .last-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
 }
 
 /* tablet */
 
 @media screen and (min-width: 768px) {
+  .top-class {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    max-width: 500px;
+    margin-bottom: 36px;
+    text-transform: none;
+  }
   .container {
     max-width: 768px;
     justify-content: space-between;
   }
 
-  .container-img { display: flex;}
+  .container-img {
+    display: flex;
+  }
 
   .menu {
     display: flex;
@@ -1044,14 +1072,15 @@ body {
   .menu-container {
     display: none;
   }
-  .menu-toggle {display: none}
+  .menu-toggle {
+    display: none;
+  }
 
-
-.menu-container .menu-toggle:hover
-.menu-container .menu-toggle:focus {
-  border: none;
-  background-color: var(--iris);
-  fill: var(--color-white); }
+  .menu-container .menu-toggle:hover .menu-container .menu-toggle:focus {
+    border: none;
+    background-color: var(--iris);
+    fill: var(--color-white);
+  }
 
   .navigation {
     padding: 0;
@@ -1201,18 +1230,25 @@ body {
   }
 
   .mobile-menu-layout {
-
-    display: none; 
+    display: none;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  .container last-div {
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 0;
+    margin-left: auto;
+    max-width: 1158px;
+  }
   .container {
     max-width: 1158px;
   }
   .section {
     padding: 120px 0;
   }
+
   .menu {
     display: flex;
     justify-content: space-between;
@@ -1302,8 +1338,9 @@ body {
     font-weight: 500;
     margin-bottom: 8px;
   }
-  .social-footer {margin-right: 80px;}
-
+  .social-footer {
+    margin-right: 80px;
+  }
   .section-third {
     display: block;
     padding-top: 0;
@@ -1320,5 +1357,16 @@ body {
     flex-wrap: nowrap;
     gap: 24px;
     flex-basis: calc((100% - 72px) / 4);
-    padding-left: 0; 
+    padding-left: 0;
   }
+  .list-class {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .class-strategy {
+    font-size: 20px;
+  }
+  .vector-style {
+    display: flex;
+  }
+}
