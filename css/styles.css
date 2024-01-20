@@ -663,7 +663,6 @@ img {
   flex-wrap: wrap;
 }
 .list-strategy {
-  width: calc((100% - 72px) / 4);
 }
 .class-strategy {
   margin-bottom: 8px;
