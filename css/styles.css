@@ -1275,14 +1275,14 @@ body {
     gap: 40px;
   }
   .last-div {
-    flex: nowrap;
+    flex-wrap: nowrap;
     padding-left: 0;
   }
   .footer-form {
     flex-wrap: nowrap;
   }
   .footer-acapit {
-    width: 254px;
+    width: 264px;
   }
   .menu {
     display: flex;
