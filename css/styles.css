@@ -773,11 +773,10 @@ img {
 }
 .last-div {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap-reverse;
-  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 72px;
+  justify-content: unset;
 }
 
 .sm-style {
