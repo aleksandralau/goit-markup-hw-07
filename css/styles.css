@@ -925,9 +925,10 @@ img {
   display: flex;
   flex-direction: column;
  align-items: unset;
- margin-right: 120px
+ margin-right: 120px;
  gap: unset; 
 }
+
 .subscribe-button {
   min-width: 165px;
   height: 40px;
@@ -957,8 +958,22 @@ img {
   width: 100%;
   justify-content: space-between;
 }
+
 .mobile-menu-layout button {
   background-color: transparent;
+    position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0;
 }
 
 .js-menu-container {
@@ -979,11 +994,10 @@ img {
   justify-content: flex-end;
 }
 
-.mobile-nav-layout .list-layout {
-  display: flex;
-  flex-flow: column nowrap;
-  padding: 24px 0;
-  gap: 20px;
+.mobile-nav-layout .list-layout { display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-size: 36px;
 }
 .mobile-nav-layout .list-layout .link-active::after {
   display: none;
@@ -1001,8 +1015,16 @@ body {
 }
 
 @media (min-device-pixel-ratio: 2),
-  (min-resolution 192dpi) (min-resolution: 2dppx) .header-main {
-  background-image: url(../images/people-office1.jpg);
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .order-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office1.jpg);
+  }
 }
 
 /* tablet */
@@ -1011,8 +1033,8 @@ body {
   .container {
     max-width: 768px;
     justify-content: space-between;
-   
   }
+
   .container-img { display: flex;}
 
   .menu {
@@ -1022,9 +1044,15 @@ body {
   .menu-container {
     display: none;
   }
-  .menu-toggle {
-    display: none;
-  }
+  .menu-toggle {display: none}
+
+
+.menu-container .menu-toggle:hover
+.menu-container .menu-toggle:focus {
+  border: none;
+  background-color: var(--iris);
+  fill: var(--color-white); }
+
   .navigation {
     padding: 0;
   }
@@ -1037,7 +1065,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--background-color-section);
+    color: var(--color-white);
     display: inline-block;
     padding: 24px 0;
     position: relative;
@@ -1292,5 +1320,5 @@ body {
     flex-wrap: nowrap;
     gap: 24px;
     flex-basis: calc((100% - 72px) / 4);
-    padding-left: 0;
+    padding-left: 0; 
   }
