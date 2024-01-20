@@ -117,7 +117,7 @@ button:focus {
   text-decoration: none;
 }
 
-.adress-style {
+.address-style {
   font-style: normal;
 }
 
@@ -776,7 +776,7 @@ img {
   align-items: baseline;
   flex-wrap: wrap;
   gap: 72px;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .sm-style {
@@ -1056,6 +1056,7 @@ body {
   }
   .last-div {
     padding-left: 108px;
+    justify-content: unset;
   }
   .p-form-footer {
     text-align: unset;
@@ -1410,5 +1411,9 @@ body {
 
   .p-form-footer {
     text-align: unset;
+  }
+  .address-style {
+    flex-direction: row;
+    gap: 40px;
   }
 }
