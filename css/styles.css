@@ -138,7 +138,7 @@ button:focus {
   margin: auto;
 }
 .vector-style {
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 112px;
@@ -148,7 +148,7 @@ button:focus {
 }
 
 .top-class {
-  font-size: 56px;
+  font-size: 36px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
@@ -156,6 +156,7 @@ button:focus {
   max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
+
 }
 
 .button-class {
@@ -268,7 +269,8 @@ button:focus {
 
 .address-details {
   font-style: normal;
- 
+ display: flex;
+ align-items: center;
 }
 
 .logo-class {
@@ -656,12 +658,12 @@ img {
 .list-class {
   display: flex;
   gap: 24px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
-.list-strategy {width: 365px; 
-}
+
 .class-strategy {
   margin-bottom: 8px;
+  font-size: 36px;
 }
 .third-section {
   padding-bottom: 120px;
@@ -772,7 +774,8 @@ img {
   align-items: baseline;
   flex-wrap: wrap;
   gap: 72px;
-  justify-content: center;
+ justify-content: unset;
+  padding-left: unset; 
 }
 
 .sm-style {
@@ -782,7 +785,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-white);
   margin-bottom: 16px;
-  text-align: center;
+  text-align: unset;
 }
 .logo-div {
   display: flex;
@@ -859,8 +862,9 @@ img {
   width: calc((100% - 48px) / 3);
 }
 .address-style {
-  gap: 12px;
-  flex-direction: column;
+  gap: 40px;
+  flex-direction: row;
+  
 }
 
 .ul-list {
@@ -892,7 +896,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-white);
-  text-align: center;
+  text-align: unset;
+  
 }
 
 .footer-form {
@@ -904,7 +909,7 @@ img {
 }
 .footer-input {
   gap: 24px;
-  width: 398px;
+  width: 264px;
   height: 40px;
   border: 1px solid var(--color-white);
   background-color: transparent;
@@ -919,7 +924,9 @@ img {
 .logo-p {
   display: flex;
   flex-direction: column;
-  align-items: center;
+ align-items: unset;
+ margin-right: 120px
+ gap: unset; 
 }
 .subscribe-button {
   min-width: 165px;
@@ -1004,6 +1011,7 @@ body {
   .container {
     max-width: 768px;
     justify-content: space-between;
+   
   }
   .container-img { display: flex;}
 
@@ -1169,11 +1177,10 @@ body {
     display: none; 
   }
 }
- /* desktop */
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
   }
   .section {
     padding: 120px 0;
@@ -1267,6 +1274,8 @@ body {
     font-weight: 500;
     margin-bottom: 8px;
   }
+  .social-footer {margin-right: 80px;}
+
   .section-third {
     display: block;
     padding-top: 0;
