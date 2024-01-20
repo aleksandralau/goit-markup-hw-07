@@ -202,9 +202,10 @@ button:focus {
 
 .point-class {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+
   color: var(--font-color);
 }
 
@@ -662,7 +663,7 @@ img {
 
 .class-strategy {
   margin-bottom: 8px;
-  font-size: 36px;
+
   display: flex;
   justify-content: center;
 }
@@ -772,11 +773,11 @@ img {
 }
 .last-div {
   display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 72px;
-  justify-content: unset;
-  padding-left: unset;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
 }
 
 .sm-style {
@@ -903,6 +904,7 @@ img {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .footer-input {
   gap: 24px;
@@ -1000,6 +1002,9 @@ img {
   display: none;
   flex-flow: column nowrap;
 }
+.container-img {
+  display: none;
+}
 
 html,
 body {
@@ -1034,16 +1039,6 @@ body {
     color: var(--color-white);
     text-transform: capitalize;
   }
-  .last-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap-reverse;
-  }
-  .container-img {
-    display: none;
-  }
 }
 
 /* tablet */
@@ -1059,11 +1054,35 @@ body {
   }
   .container {
     max-width: 768px;
-    justify-content: space-between;
   }
-
+  .last-div {
+    padding-left: 108px;
+  }
+  .p-form-footer {
+    text-align: unset;
+  }
+  .address-style {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .sm-style {
+    text-align: unset;
+  }
+  .footer-input {
+    width: 265px;
+  }
+  .logo-link {
+    text-align: unset;
+  }
   .container-img {
     display: flex;
+    justify-content: space-between;
+  }
+  .list-strategy {
+    width: 356px;
+  }
+  .list-class {
+    gap: 24px;
   }
 
   .menu {
@@ -1235,6 +1254,8 @@ body {
   }
 }
 
+/* desktop */
+
 @media screen and (min-width: 1200px) {
   .container last-div {
     flex-wrap: nowrap;
@@ -1249,7 +1270,20 @@ body {
   .section {
     padding: 120px 0;
   }
-
+  .adress-style {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .last-div {
+    flex: nowrap;
+    padding-left: 0;
+  }
+  .footer-form {
+    flex-wrap: nowrap;
+  }
+  .footer-acapit {
+    width: 254px;
+  }
   .menu {
     display: flex;
     justify-content: space-between;
